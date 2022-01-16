@@ -79,4 +79,3 @@ class Admin extends Authenticatable
         return $this->hasMany(Game::class);
     }
 }
-///
