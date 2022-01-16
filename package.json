@@ -1,0 +1,34 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "build-restore-fees-card": "cd nova-components/RestoreFeesCard && npm run dev",
+        "build-restore-fees-card-prod": "cd nova-components/RestoreFeesCard && npm run prod",
+        "build-Applications-card": "cd nova-components/ApplicationsCard && npm run dev",
+        "build-Applications-card-prod": "cd nova-components/ApplicationsCard && npm run prod",
+        "build-applications-card": "cd nova-components/ApplicationsCard && npm run dev",
+        "build-applications-card-prod": "cd nova-components/ApplicationsCard && npm run prod",
+        "build-playgrouds-card": "cd nova-components/PlaygroudsCard && npm run dev",
+        "build-playgrouds-card-prod": "cd nova-components/PlaygroudsCard && npm run prod",
+        "build-admins-card": "cd nova-components/AdminsCard && npm run dev",
+        "build-admins-card-prod": "cd nova-components/AdminsCard && npm run prod",
+        "build-users-card": "cd nova-components/UsersCard && npm run dev",
+        "build-users-card-prod": "cd nova-components/UsersCard && npm run prod",
+        "build-games-card": "cd nova-components/GamesCard && npm run dev",
+        "build-games-card-prod": "cd nova-components/GamesCard && npm run prod",
+        "build-google-map-marker": "cd nova-components/GoogleMapMarker && npm run dev",
+        "build-google-map-marker-prod": "cd nova-components/GoogleMapMarker && npm run prod"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^5.0.9",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14"
+    }
+}

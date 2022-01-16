@@ -1,0 +1,11 @@
+
+.collapsible-indicator{
+    display: none;
+  }
+
+.white-icon {
+  fill: white;
+  stroke: white;
+  flood-color : white;
+  lighting-color : white;
+}

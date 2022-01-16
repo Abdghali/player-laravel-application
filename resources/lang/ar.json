@@ -1,0 +1,13 @@
+{
+    "The number is used before.": "الرقم مستعمل من قبل.",
+    "The number is not verified.": "الرجاء التحقق من الرقم.",
+    "Your application successfully sent!": "تم إرسال الرسالة بنجاح.",
+    "Your money back request successfully sent!": "تم إرسال طلب استعادة المبلغ بنجاح.",
+    "Verification code not correct.": "كود التفعيل غير صحيح.",
+    "You have joined a match!": "تم المشاركة بالمبارة",
+    "You have unjoin a match!": "تم إلغاء المشاركة بالمبارة",
+    "The user is disabled.": "تم تعطيل الحساب",
+    "Games Per Playground": "عدد المباريات لكل ملعب",
+    "Games Per City": "عدد المباريات لكل مدينة",
+    "Verification Code Is" : "كود التفعيل هو :code"
+}
